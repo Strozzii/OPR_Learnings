@@ -33,7 +33,10 @@ public class Main {
         // LinkedList implementiert die Schnittstelle List
         List<String> l = new LinkedList<String>();
 
-        // Ein Comparator erwartet einen Integer, was der Lambdaausdruck zurückgibt (Funktionale Schnittstelle)
+        /*
+        Die Typen der Parameter und der Rückgabewert des Lambda-Ausdrucks stimmen mit der Signatur der compare-Methode
+        des Comparator-Interfaces überein, wodurch der Ausdruck typverträglich ist.
+         */
         Comparator<String> c = (s, t) -> s.length() - t.length();
 
     }

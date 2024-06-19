@@ -186,6 +186,15 @@ Notwendigkeit, die Methode `equals` überschreiben zu wollen, nicht.
 Da wir `o.wert()` aufrufen möchten für den Temperaturwert, müssen wir deswegen einen Typecast machen, da
 der aktuelle Typ `Object` die Methode `wert()` nicht kennt.
 
+Alternativ kann man aber auch Folgendes machen:
+````java
+if(o instanceof Temperatur t){
+    isEquals = t.wert() == this.wert();
+}
+````
+* Dieser Weg ermöglicht uns einen direkten Typecast und macht den Code wesentlich lesbarer
+  * Mit meiner Lösung wollte ich nur aufzeigen, dass man auf den Typen des Objektes achten muss!
+
 Nun gibt mir die Ausgabe folgendes:
 
 ````

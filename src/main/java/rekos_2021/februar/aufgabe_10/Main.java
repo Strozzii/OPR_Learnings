@@ -13,8 +13,11 @@ public class Main {
         liste.add("");
 
         List<String> gefiltert = Listenfilter.filter(liste, new LaengenFilter());
+        // List<String> gefiltert = Listenfilter.filter(liste, wort -> wort.length() > 10);
 
         System.out.println(gefiltert);
+
+
 
 
     }

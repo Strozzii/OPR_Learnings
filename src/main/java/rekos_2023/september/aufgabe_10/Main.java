@@ -19,21 +19,16 @@ public class Main {
             int gueltigeBytes = 0;
 
             for (int i = 0; i < geleseneBytes; i++) {
-                int aktuellesByte = buffer[i];
-                if (erlaubteWerte.contains(aktuellesByte)) {
-                    gueltigeBytes++;
-                } else {
-                    kopiereWeiter = false;
+                kopiereWeiter = erlaubteWerte.contains((int) buffer[i]);
+                if (!kopiereWeiter) {
                     break;
                 }
+                gueltigeBytes++;
             }
 
             output.write(buffer, 0, gueltigeBytes);
             anzahlBytes += gueltigeBytes;
 
-            if (!kopiereWeiter) {
-                break;
-            }
         }
 
         return anzahlBytes;

@@ -72,12 +72,12 @@ public class Main {
 
         int n = 9;
         boolean ergebnis = r_true.lines()
-                .allMatch(s -> s.length() > n);
+                .allMatch(s -> s.length() >= n);
 
         System.out.println(ergebnis);
 
         ergebnis = r_false.lines()
-                .allMatch(s -> s.length() > n);
+                .allMatch(s -> s.length() >= n);
 
         System.out.println(ergebnis);
 

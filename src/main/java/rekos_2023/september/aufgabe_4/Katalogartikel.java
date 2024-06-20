@@ -15,7 +15,7 @@ public class Katalogartikel {
 
     @Override
     public int hashCode() {
-        return Integer.parseInt(artikelnummer);
+        return artikelnummer.hashCode();
     }
 
     @Override

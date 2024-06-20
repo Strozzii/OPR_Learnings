@@ -10,7 +10,7 @@ import java.util.Set;
 public class Main {
 
     public static long kopiere(InputStream input, OutputStream output, Set<Integer> erlaubteWerte) throws IOException {
-        byte[] buffer = new byte[1];
+        byte[] buffer = new byte[1028];
         long anzahlBytes = 0;
         int geleseneBytes;
         boolean kopiereWeiter = true;

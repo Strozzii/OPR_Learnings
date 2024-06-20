@@ -12,7 +12,6 @@ public class StringTokenizerTest {
 
     private StringTokenizer st;
     private String zeichenkette;
-    private String trennzeichen;
 
     @BeforeEach
     void setUp() {

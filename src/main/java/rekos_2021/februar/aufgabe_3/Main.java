@@ -14,7 +14,7 @@ public class Main {
                 ausgabe.get(erstes_zeichen).add(s);
             }
             else {
-                Collection<String> liste = new HashSet<>();
+                HashSet<String> liste = new HashSet<>();
                 liste.add(s);
 
                 ausgabe.put(erstes_zeichen, liste);

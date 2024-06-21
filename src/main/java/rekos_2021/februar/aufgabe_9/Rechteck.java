@@ -17,7 +17,7 @@ public class Rechteck implements Comparable<Rechteck> {
 
     @Override
     public int hashCode() {
-        return hoehe * hoehe * breite * breite;
+        return (hoehe + 69) * (breite * 420);
     }
 
     @Override

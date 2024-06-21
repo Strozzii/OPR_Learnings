@@ -10,10 +10,9 @@ import java.util.HashSet;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class MainTest {
+class TokenizerTest {
 
     private Reader r;
-    private ReaderTokenizer rt;
 
     @BeforeEach
     void setUp() {
@@ -22,7 +21,7 @@ class MainTest {
 
     @Test
     void testGibWoerter1() throws IOException {
-        rt = new ReaderTokenizer(r, ". ");
+        ReaderTokenizer rt = new ReaderTokenizer(r, ". ");
         HashSet<String> ist = (HashSet<String>) rt.gibWoerter();
         HashSet<String> soll = new HashSet<>();
 
@@ -36,7 +35,7 @@ class MainTest {
 
     @Test
     void testGibWoerter2() throws IOException {
-        rt = new ReaderTokenizer(r, ".,!");
+        ReaderTokenizer rt = new ReaderTokenizer(r, ".,!");
         HashSet<String> ist = (HashSet<String>) rt.gibWoerter();
         HashSet<String> soll = new HashSet<>();
 

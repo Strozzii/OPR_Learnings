@@ -10,10 +10,9 @@ public class Main {
 
     public static boolean enthaelt(InputStream is, Set<Byte> bytes) throws IOException {
         boolean enthaelt_bytes = false;
-        byte gelesenes_byte = 0;
+        byte gelesenes_byte;
 
-        while (!enthaelt_bytes && gelesenes_byte != -1){
-            gelesenes_byte = (byte) is.read();
+        while (!enthaelt_bytes && (gelesenes_byte = (byte) is.read()) != -1) {
 
             bytes.remove(gelesenes_byte);
 

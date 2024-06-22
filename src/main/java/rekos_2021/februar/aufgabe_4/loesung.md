@@ -71,7 +71,7 @@ public int hashCode(){
 * Wir sorgen dafür, dass sich der Hashcode aller Zeitdauer-Objekte aus den ganzen Minuten ergibt
   * Damit hat 1h 100m den gleichen Fingerabdruck wie 2h 40m
 
-Um aber auch über die ``equals``-Methode, die von Collection-Klassen verwendet werden, zu nutzen um zwei Objekte zu vergleichen,
+Um aber auch die ``equals``-Methode, die von Collection-Klassen verwendet werden, zu nutzen um zwei Objekte zu vergleichen,
 müssen wir diese auch vergleichen:
 
 ````java

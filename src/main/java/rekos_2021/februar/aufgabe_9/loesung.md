@@ -7,7 +7,7 @@ TreeSets haben die Eigenschaft, dass die Elemente in einer bestimmten Reihenfolg
 Elemente keine spezifische Reihenfolge).
 
 Ein TreeSet kann allerdings nur mit Objekten funktionieren, die in der Lage sind, sich mit Objekten des selben Typs zu
-vergleichen. (Strichwort: `compareTo`)
+vergleichen. (Stichwort: `compareTo`)
 
 Damit Klassen diese Methode sinnvoll anwenden können, müssen sie eine bestimmte Schnittstelle implementieren. Und zwar
 das Interface ``Comparable<T>``

@@ -47,7 +47,7 @@ Es gibt eig nur drei Collection Klassen zur Auswahl (laut der Vorlesung):
 * Sets
 * Lists
 
-**Lists** können wir ja zunächst streichen, da diese durch für diesen Zweck ineffizient erscheinen.
+**Lists** können wir ja zunächst streichen, da Diese für diesen Zweck ineffizient erscheinen.
 
 **Maps** sind hier ebenfalls nicht geeignet, da man noch extra einen Schlüssel für jede Temperatur definieren
 müsste, was unnötig ist.

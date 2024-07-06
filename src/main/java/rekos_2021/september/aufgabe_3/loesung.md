@@ -118,21 +118,14 @@ Vergleichen wir mal beide Instanzen:
 
 ````java
 System.out.println(t1.equals(t4));
-
-System.out.println(t1);
-System.out.println(t4);
 ````
 Ausgabe:
 ````
 false
-
-Temperatur@312b1dae
-Temperatur@3941a79c
 ````
 
 Das liegt daran, dass Java nicht weiss wie es Temperatur-Objekte zu interpretieren hat um diese entsprechend zu vergleichen.
-In den unteren beiden Zeilen kann man gut erkennen, dass anhand des Hex-Codes nach dem @ beide Objekte anscheinend nicht
-gleich sind. Doch wie können wir das beheben?
+Doch wie können wir das beheben?
 
 Jede Klasse erbt Methoden der Klasse _Object_. Dort befinden sich zwei essenzielle Methoden zum Vergleichen von
 zwei Objekten derselben Klasse:

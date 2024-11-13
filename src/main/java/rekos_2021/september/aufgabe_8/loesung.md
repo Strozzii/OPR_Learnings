@@ -1,7 +1,7 @@
 # Lösung
 ***
 ## Vorbereitung
-Da das für dich Aufgabe wichtig ist, sollten wir zuerst die Umrechnungsfaktoren bestimmen, also den Faktor um von einer
+Da das für die Aufgabe wichtig ist, sollten wir zuerst die Umrechnungsfaktoren bestimmen, also den Faktor um von einer
 Einheit zur nächsten zu kommen.
 *  1000 µm = 1 mm
 *  10 mm = 1 cm

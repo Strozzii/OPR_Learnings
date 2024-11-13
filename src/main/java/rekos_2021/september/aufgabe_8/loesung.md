@@ -92,7 +92,7 @@ Bei Enumerationen gibt es paar Methoden die man kennen sollte, die einem das Leb
 * `values()`
   * Gibt alle Enum-Konstanten (Hier: MUM, MM, usw.) als Array zurück
 * `ordinal()`
-  * Gibt den Index einer Enum-Konstante zurück (z.B. DM hat die Ordinalszahl 3, weil es als drittes in der Reihe oben ist)
+  * Gibt den Index einer Enum-Konstante zurück (z.B. CM hat die Ordinalszahl 2, weil es als drittes in der Reihe oben ist)
 
 Da wir durch alle Enum-Konstanten iterieren müssen, um zu prüfen, welche für meine Zahl am geeignetsten ist, müssen wir
 diese als Array vorliegen haben, da dies durch die Enumeration sonst nicht möglich ist. Hierbei bleibt der Arraytyp `Einheit`.
